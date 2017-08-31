@@ -1,0 +1,18 @@
+PODS:
+  - LXMButtonImagePosition (1.1.1)
+  - Masonry (1.0.2)
+  - YBPopupMenu (1.0.0)
+
+DEPENDENCIES:
+  - LXMButtonImagePosition
+  - Masonry
+  - YBPopupMenu
+
+SPEC CHECKSUMS:
+  LXMButtonImagePosition: bbbe4fceb2f6011cf02add36750acbeddd161c3e
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  YBPopupMenu: b466cf9daa0d341ea15c5ad709247546051c4d86
+
+PODFILE CHECKSUM: a3dbc92cefd310e8285e723d7211844a97b42c81
+
+COCOAPODS: 1.1.1
