@@ -17,10 +17,13 @@
         self.backgroundColor = [UIColor whiteColor];
         self.layer.masksToBounds = YES;
         self.layer.cornerRadius = 5;
-        
         self.chooseBtn = [[UIButton alloc]init];
         self.chooseBtn.titleLabel.font = [UIFont systemFontOfSize:12];
-        self.chooseBtn.backgroundColor = [UIColor redColor];
+        self.chooseBtn.backgroundColor = [UIColor whiteColor];
+        //设置button文字的位置
+        self.chooseBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        //调整与边距的距离
+        self.chooseBtn.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
         
         [self.chooseBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         [self.contentView addSubview:self.chooseBtn];
@@ -31,13 +34,17 @@
     return self;
 }
 -(void)setFilterIndexPath:(NSIndexPath *)indexPath andFilter:(BOOL)isFilter andTitleAry:(NSArray *)titleAry {
-    NSLog(@"=======%@",titleAry[indexPath.section][indexPath.row]);
-    
-    [self.chooseBtn setTitle:titleAry[indexPath.section][indexPath.row] forState:UIControlStateNormal];
-    if (indexPath.section == 1 || indexPath.section == 4) {
-        [self.chooseBtn setImage:[UIImage imageNamed:@"下拉"] forState:UIControlStateNormal];
-        [self.chooseBtn setImagePosition:LXMImagePositionRight spacing:15];
+       NSLog(@"=======%@",titleAry[indexPath.section][indexPath.row]);
+    if (indexPath.section != 3) {
+   
+        [self.chooseBtn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [self.chooseBtn setTitle:titleAry[indexPath.section][indexPath.row] forState:UIControlStateNormal];
+        UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(55, 11, 12, 8)];
+        imageView.image = [UIImage imageNamed:@"下拉"];
+        [self.chooseBtn addSubview:imageView];
+        
     }
+  
     
 }
 @end

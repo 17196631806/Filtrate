@@ -22,6 +22,7 @@
 		92C97D411F557F8000D15F4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C97D401F557F8000D15F4B /* Assets.xcassets */; };
 		92C97D441F557F8000D15F4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C97D421F557F8000D15F4B /* LaunchScreen.storyboard */; };
 		92C97D4D1F5582A800D15F4B /* ChooseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C97D4C1F5582A800D15F4B /* ChooseListView.m */; };
+		92D8F1351F594B1400967D31 /* OtherCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D8F1341F594B1400967D31 /* OtherCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		92C97D451F557F8000D15F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C97D4B1F5582A800D15F4B /* ChooseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseListView.h; sourceTree = "<group>"; };
 		92C97D4C1F5582A800D15F4B /* ChooseListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseListView.m; sourceTree = "<group>"; };
+		92D8F1331F594B1400967D31 /* OtherCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherCollectionViewCell.h; sourceTree = "<group>"; };
+		92D8F1341F594B1400967D31 /* OtherCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				92637E9D1F56A05700FAC3C2 /* AddressData.m */,
 				92637E971F56534100FAC3C2 /* MyCollectionViewCell.h */,
 				92637E981F56534100FAC3C2 /* MyCollectionViewCell.m */,
+				92D8F1331F594B1400967D31 /* OtherCollectionViewCell.h */,
+				92D8F1341F594B1400967D31 /* OtherCollectionViewCell.m */,
 				92637E941F56494B00FAC3C2 /* Tools.h */,
 				92637E951F56494B00FAC3C2 /* Tools.m */,
 				92C97D3D1F557F8000D15F4B /* Main.storyboard */,
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D8F1351F594B1400967D31 /* OtherCollectionViewCell.m in Sources */,
 				92637EBB1F58009100FAC3C2 /* ShowAnimationView.m in Sources */,
 				92C97D3C1F557F8000D15F4B /* ViewController.m in Sources */,
 				92637E961F56494B00FAC3C2 /* Tools.m in Sources */,
